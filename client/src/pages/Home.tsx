@@ -15,13 +15,13 @@ import { toast } from "sonner";
 
 // セミナー情報の定義
 const seminar = {
-  id: "vol1",
+  id: "vol3",
   title: "「商談時間」を最大化する",
-  subtitle: "～非コア業務をAIで自動化し、顧客に向き合う～",
-  date: "2026年2月3日(火)",
+  subtitle: "～煩雑な業務をAIで自動化し、顧客に向き合う～",
+  date: "2026年3月3日(火)",
   time: "14:00～15:00",
-  image: "/seminar-vol1.png",
-  description: "見積・技術仕様書・カタログ作成...その事務作業、AIなら一瞬です。産業機械営業を「本来の仕事」に集中させる具体的メソッドを解説！"
+  image: "/seminar-vol3.png",
+  description: "提案書作成、顧客フォロー、見積調整にしかんをとられていませんか？最新AIツールを活用して、顧客価値を最大化する営業へ進化しましょう！"
 };
 
 export default function Home() {
@@ -159,8 +159,8 @@ export default function Home() {
             </h1>
 
             <p className="text-lg md:text-xl text-slate-300 mb-10 leading-relaxed max-w-3xl mx-auto">
-              見積・技術仕様書・カタログ作成などの非コア業務をAIで自動化し、<br />
-              営業マンを「本来の仕事」に集中させる具体的メソッドを解説！
+              提案書作成、顧客フォロー、見積調整にしかんをとられていませんか？<br />
+              最新AIツールを活用して、顧客価値を最大化する営業へ進化しましょう！
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -243,10 +243,10 @@ export default function Home() {
             className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12"
           >
             {[
-              { icon: FileText, title: "技術仕様書・提案書作成の負担", desc: "産業機械は顧客ごとにカスタマイズが必要なケースが多く、タイプの異なる技術仕様書や提案書の作成に大変な時間がかかります。過去の類似案件を探し出し、顧客の要件に合わせて修正する作業は、営業担当者の工数を大きく圧迫しています。" },
-              { icon: Search, title: "顧客情報の収集・分析", desc: "製造業の意思決定プロセスは複雑で、設備投資のタイミングや予算状況、競合製品の導入状況など、多岐にわたる情報収集が必要です。これらの情報を各営業が個別に調査・整理しているため、非効率で属人化しやすい状況になっています。" },
-              { icon: BarChart3, title: "見積もり作成と価格調整", desc: "機械本体だけでなく、オプション、設置工事、メンテナンス契約など複雑な見積もり項目があり、さらに顧客の予算や競合状況に応じた価格調整も必要です。過去の受注実績や原価情報を参照しながらの見積もり作成は時間がかかる上、ミスのリスクもあります。" },
-              { icon: MessageSquare, title: "アフターフォローと保守提案", desc: "既存顧客への定期訪問、メンテナンス提案、部品交換時期の案内など、継続的なフォロー業務が重要です。しかし、担当顧客数が多いと優先順位付けが難しく、適切なタイミングでの提案機会を逃してしまうケースがあります。" }
+              { icon: FileText, title: "技術仕様書・提案書作成の負担", desc: "顧客ごとにカスタマイズが必要な産業機械。過去案件を探して修正する作業に、多くの時間を取られていませんか？" },
+              { icon: Search, title: "顧客情報の収集・分析", desc: "設備投資タイミング、予算状況、競合製品の導入状況など、複雑な情報収集。個別に調査・整理するのは非効率ですよね。" },
+              { icon: BarChart3, title: "見積もり作成と価格調整", desc: "機械本体、オプション、工事、メンテナンス…複雑な見積もり項目と価格調整。過去実績を参照しながらの作業は時間がかかります。" },
+              { icon: MessageSquare, title: "アフターフォローと保守提案", desc: "定期訪問、メンテナンス提案、部品交換時期の案内…担当顧客数が多いと、適切なタイミングでの提案が難しいですよね。" }
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -273,7 +273,7 @@ export default function Home() {
           <div className="mt-16 text-center">
             <div className="inline-block bg-slate-900 text-white px-8 py-4 rounded-lg shadow-xl relative">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[10px] border-b-slate-900"></div>
-              <p className="text-xl font-bold">その課題、<span className="text-cyan-400">Gemini</span>で解決できます。</p>
+              <p className="text-xl font-bold">そのお悩み、<span className="text-cyan-400">Gemini</span>で解決できます。</p>
             </div>
           </div>
         </div>
