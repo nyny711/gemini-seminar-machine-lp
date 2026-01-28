@@ -15,12 +15,12 @@ import { toast } from "sonner";
 
 // セミナー情報の定義
 const seminar = {
-  id: "vol3",
+  id: "vol1",
   title: "「商談時間」を最大化する",
   subtitle: "～煩雑な業務をAIで自動化し、顧客に向き合う～",
   date: "2026年3月3日(火)",
   time: "14:00～15:00",
-  image: "/seminar-vol3.png",
+  image: "/seminar-vol1.png",
   description: "提案書作成、顧客フォロー、見積調整にしかんをとられていませんか？最新AIツールを活用して、顧客価値を最大化する営業へ進化しましょう！"
 };
 
