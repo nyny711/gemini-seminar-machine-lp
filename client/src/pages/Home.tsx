@@ -21,7 +21,7 @@ const seminar = {
   date: "2026年3月3日(火)",
   time: "14:00～15:00",
   image: "/seminar-vol1.png",
-  description: "提案書作成、顧客フォロー、見積調整にしかんをとられていませんか？最新AIツールを活用して、顧客価値を最大化する営業へ進化しましょう！"
+  description: "提案書作成、顧客フォロー、見積りに時間をとられていませんか？最新AIツールを活用して、顧客価値を最大化する営業へ進化しましょう！"
 };
 
 export default function Home() {
