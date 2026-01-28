@@ -243,7 +243,7 @@ export default function Home() {
             className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12"
           >
             {[
-              { icon: FileText, title: "技術仕様書・提案書作成の負担", desc: "産業機械は顧客ごとにカスタマイズが必要なケースが多く、詳細な技術仕様書や提案書の作成に膨大な時間がかかります。過去の類似案件を探し出し、顧客の要件に合わせて修正する作業は、営業担当者の工数を大きく圧迫しています。" },
+              { icon: FileText, title: "技術仕様書・提案書作成の負担", desc: "産業機械は顧客ごとにカスタマイズが必要なケースが多く、タイプの異なる技術仕様書や提案書の作成に大変な時間がかかります。過去の類似案件を探し出し、顧客の要件に合わせて修正する作業は、営業担当者の工数を大きく圧迫しています。" },
               { icon: Search, title: "顧客情報の収集・分析", desc: "製造業の意思決定プロセスは複雑で、設備投資のタイミングや予算状況、競合製品の導入状況など、多岐にわたる情報収集が必要です。これらの情報を各営業が個別に調査・整理しているため、非効率で属人化しやすい状況になっています。" },
               { icon: BarChart3, title: "見積もり作成と価格調整", desc: "機械本体だけでなく、オプション、設置工事、メンテナンス契約など複雑な見積もり項目があり、さらに顧客の予算や競合状況に応じた価格調整も必要です。過去の受注実績や原価情報を参照しながらの見積もり作成は時間がかかる上、ミスのリスクもあります。" },
               { icon: MessageSquare, title: "アフターフォローと保守提案", desc: "既存顧客への定期訪問、メンテナンス提案、部品交換時期の案内など、継続的なフォロー業務が重要です。しかし、担当顧客数が多いと優先順位付けが難しく、適切なタイミングでの提案機会を逃してしまうケースがあります。" }
@@ -314,11 +314,10 @@ export default function Home() {
                 <CardContent className="pt-6">
                   <p className="text-slate-700 leading-relaxed mb-4">
                     過去の類似案件をAIが自動検索し、顧客の要件に合わせて技術仕様書や提案書を短時間で作成する方法を学びます。
-                    カスタマイズが必要な産業機械業界でこそ威力を発揮します。
                   </p>
                   <div className="flex items-start gap-2 text-sm text-slate-600">
                     <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0 mt-0.5" />
-                    <span>提案書作成時間が70%削減され、顧客対応に集中できます</span>
+                    <span>顧客対応に集中できる時間が生まれます</span>
                   </div>
                 </CardContent>
               </Card>
@@ -351,7 +350,7 @@ export default function Home() {
                   </p>
                   <div className="flex items-start gap-2 text-sm text-slate-600">
                     <CheckCircle2 className="h-5 w-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                    <span>情報収集時間が60%削減され、戦略的な提案が可能になります</span>
+                    <span>戦略的な提案ができるようになります</span>
                   </div>
                 </CardContent>
               </Card>
@@ -384,7 +383,7 @@ export default function Home() {
                   </p>
                   <div className="flex items-start gap-2 text-sm text-slate-600">
                     <CheckCircle2 className="h-5 w-5 text-indigo-600 flex-shrink-0 mt-0.5" />
-                    <span>見積もり作成時間が75%削減され、価格ミスのリスクも低減します</span>
+                    <span>価格ミスのリスクを低減できます</span>
                   </div>
                 </CardContent>
               </Card>
@@ -417,7 +416,7 @@ export default function Home() {
                   </p>
                   <div className="flex items-start gap-2 text-sm text-slate-600">
                     <CheckCircle2 className="h-5 w-5 text-purple-600 flex-shrink-0 mt-0.5" />
-                    <span>フォロー漏れが80%減少し、既存顧客からの追加受注が増加します</span>
+                    <span>提案機会を逃さず、既存顧客からの追加受注が期待できます</span>
                   </div>
                 </CardContent>
               </Card>
