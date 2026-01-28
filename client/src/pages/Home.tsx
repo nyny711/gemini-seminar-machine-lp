@@ -243,10 +243,10 @@ export default function Home() {
             className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12"
           >
             {[
-              { icon: FileText, title: "見積作成に時間がかかる", desc: "複雑な仕様の見積書作成に数時間かかっている" },
-              { icon: Search, title: "技術仕様書の検索が大変", desc: "過去の技術仕様書や製品カタログを探すのに時間がかかる" },
-              { icon: MessageSquare, title: "カタログ作成が属人化", desc: "製品カタログの作成方法が担当者によってバラバラ" },
-              { icon: BarChart3, title: "商談準備に追われる", desc: "資料作成に時間を取られ、顧客対応の時間が不足" }
+              { icon: FileText, title: "技術仕様書・提案書作成の負担", desc: "産業機械は顧客ごとにカスタマイズが必要なケースが多く、詳細な技術仕様書や提案書の作成に膨大な時間がかかります。過去の類似案件を探し出し、顧客の要件に合わせて修正する作業は、営業担当者の工数を大きく圧迫しています。" },
+              { icon: Search, title: "顧客情報の収集・分析", desc: "製造業の意思決定プロセスは複雑で、設備投資のタイミングや予算状況、競合製品の導入状況など、多岐にわたる情報収集が必要です。これらの情報を各営業が個別に調査・整理しているため、非効率で属人化しやすい状況になっています。" },
+              { icon: BarChart3, title: "見積もり作成と価格調整", desc: "機械本体だけでなく、オプション、設置工事、メンテナンス契約など複雑な見積もり項目があり、さらに顧客の予算や競合状況に応じた価格調整も必要です。過去の受注実績や原価情報を参照しながらの見積もり作成は時間がかかる上、ミスのリスクもあります。" },
+              { icon: MessageSquare, title: "アフターフォローと保守提案", desc: "既存顧客への定期訪問、メンテナンス提案、部品交換時期の案内など、継続的なフォロー業務が重要です。しかし、担当顧客数が多いと優先順位付けが難しく、適切なタイミングでの提案機会を逃してしまうケースがあります。" }
             ].map((item, index) => (
               <motion.div
                 key={index}
@@ -306,19 +306,19 @@ export default function Home() {
                       <Search className="h-6 w-6" />
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-xl mb-2 text-slate-900">技術仕様書の整理・要約</CardTitle>
-                      <p className="text-sm text-slate-600 font-normal">膨大な技術資料を瞬時に検索・要約</p>
+                      <CardTitle className="text-xl mb-2 text-slate-900">AIを活用した技術仕様書・提案書作成</CardTitle>
+                      <p className="text-sm text-slate-600 font-normal">過去案件を瞬時に検索し、顧客向けにカスタマイズ</p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="pt-6">
                   <p className="text-slate-700 leading-relaxed mb-4">
-                    製品仕様書、過去の提案資料、技術マニュアルなど、社内に散在する情報を一元管理し、
-                    必要な情報を瞬時に引き出す方法を学びます。
+                    過去の類似案件をAIが自動検索し、顧客の要件に合わせて技術仕様書や提案書を短時間で作成する方法を学びます。
+                    カスタマイズが必要な産業機械業界でこそ威力を発揮します。
                   </p>
                   <div className="flex items-start gap-2 text-sm text-slate-600">
                     <CheckCircle2 className="h-5 w-5 text-cyan-600 flex-shrink-0 mt-0.5" />
-                    <span>顧客からの技術的な質問に即座に対応できるようになります</span>
+                    <span>提案書作成時間が70%削減され、顧客対応に集中できます</span>
                   </div>
                 </CardContent>
               </Card>
@@ -339,19 +339,19 @@ export default function Home() {
                       <FileText className="h-6 w-6" />
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-xl mb-2 text-slate-900">見積書の自動生成</CardTitle>
-                      <p className="text-sm text-slate-600 font-normal">顧客ごとにカスタマイズされた見積書を短時間で作成</p>
+                      <CardTitle className="text-xl mb-2 text-slate-900">顧客情報の収集・分析の効率化</CardTitle>
+                      <p className="text-sm text-slate-600 font-normal">AIが設備投資タイミングや競合状況を分析</p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="pt-6">
                   <p className="text-slate-700 leading-relaxed mb-4">
-                    顧客要件と製品データを組み合わせて、正確な見積書を自動生成。
-                    営業担当者は戦略立案に集中できます。
+                    製造業の複雑な意思決定プロセスに必要な情報（設備投資タイミング、予算状況、競合製品導入状況）を
+                    AIが自動収集・整理し、属人化を防ぐ方法を学びます。
                   </p>
                   <div className="flex items-start gap-2 text-sm text-slate-600">
                     <CheckCircle2 className="h-5 w-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                    <span>見積書作成時間を70%削減し、商談準備の質を向上させます</span>
+                    <span>情報収集時間が60%削減され、戦略的な提案が可能になります</span>
                   </div>
                 </CardContent>
               </Card>
@@ -372,19 +372,19 @@ export default function Home() {
                       <MessageSquare className="h-6 w-6" />
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-xl mb-2 text-slate-900">カタログ作成の効率化</CardTitle>
-                      <p className="text-sm text-slate-600 font-normal">製品カタログを自動生成して営業資料を統一</p>
+                      <CardTitle className="text-xl mb-2 text-slate-900">複雑な見積もり作成と価格最適化</CardTitle>
+                      <p className="text-sm text-slate-600 font-normal">過去実績を参照して正確な見積もりを短時間で作成</p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="pt-6">
                   <p className="text-slate-700 leading-relaxed mb-4">
-                    製品情報を入力するだけで、AIが統一フォーマットのカタログを自動生成。
-                    営業資料の品質を標準化します。
+                    機械本体、オプション、設置工事、メンテナンス契約など複雑な見積もり項目をAIが自動計算。
+                    過去の受注実績や原価情報を参照して最適価格を提案します。
                   </p>
                   <div className="flex items-start gap-2 text-sm text-slate-600">
                     <CheckCircle2 className="h-5 w-5 text-indigo-600 flex-shrink-0 mt-0.5" />
-                    <span>カタログ作成時間が80%削減され、営業資料の質が向上します</span>
+                    <span>見積もり作成時間が75%削減され、価格ミスのリスクも低減します</span>
                   </div>
                 </CardContent>
               </Card>
@@ -405,19 +405,19 @@ export default function Home() {
                       <BrainCircuit className="h-6 w-6" />
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-xl mb-2 text-slate-900">顧客対応の質向上</CardTitle>
-                      <p className="text-sm text-slate-600 font-normal">事務作業を削減し、顧客との時間を最大化</p>
+                      <CardTitle className="text-xl mb-2 text-slate-900">アフターフォローと保守提案の自動化</CardTitle>
+                      <p className="text-sm text-slate-600 font-normal">AIが最適なタイミングでメンテナンス提案をアラート</p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="pt-6">
                   <p className="text-slate-700 leading-relaxed mb-4">
-                    AIが非コア業務を代行することで、営業担当者は顧客との関係構築や
-                    戦略的な提案活動に時間を使えるようになります。
+                    既存顧客への定期訪問、メンテナンス提案、部品交換時期の案内なAIが自動管理。
+                    担当顧客数が多くても、最適なタイミングで提案機会を逃しません。
                   </p>
                   <div className="flex items-start gap-2 text-sm text-slate-600">
                     <CheckCircle2 className="h-5 w-5 text-purple-600 flex-shrink-0 mt-0.5" />
-                    <span>顧客対応時間が2倍に増え、商談成約率が向上します</span>
+                    <span>フォロー漏れが80%減少し、既存顧客からの追加受注が増加します</span>
                   </div>
                 </CardContent>
               </Card>
